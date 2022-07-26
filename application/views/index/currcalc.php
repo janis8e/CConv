@@ -83,7 +83,7 @@ function footer_script()
         });
       });
 
-      $('#amount').keypress(function() {
+      $('#amount').keyup(function() {
         calc();
       });
 
